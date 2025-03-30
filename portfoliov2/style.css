@@ -1,0 +1,109 @@
+/*color pallette :
+https://colorhunt.co/palette/0000000b60b040a2d8f0edcf
+*/
+.dark{
+    background-color: black; 
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /*secondary-color:#0B60B0;*/
+    color:#F0EDCF;
+}
+.light{
+    background-color: #F0EDCF;
+    color: black;
+}
+#navbar{
+    display: flex;
+    height:100px;
+    justify-content:space-between;
+}
+.link{
+    color: #40A2D8;
+    text-underline-position: below;
+    background: none;
+    border: 0;
+}
+.flexcont{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+
+}
+a{
+    font-size: 25px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+a:hover{
+    font-size: 30px;
+    text-decoration:dotted;
+
+
+}
+.bigLogo{
+height: 500px;
+}
+.gridcont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.secondarycolor{
+    background-color: #0B60B0;
+}
+.round{
+    border-radius: 25px;
+}
+.herobtn{
+    color: #F0EDCF;
+    padding: 10px;
+    width: 100%;
+    height: 30%;
+    font-size: 50px;
+    text-decoration: none;
+}
+.herobtn:hover{
+    font-size: 55px;
+}
+hr{
+    align-self: self-start;
+    width: 30%;
+}
+#myProjects{
+    text-align: center;
+}
+/*yes or no stuff*/
+
+#yesorno-maindiv{
+    border-radius:25px ;
+    align-self:center ;
+    width: 200px;
+}
+.yesornotest{
+    color: white;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yesorno-button{
+    border: 0;
+    border-radius: 25px;
+    height: 3rem;
+    width:90%;
+    background-color: blue;
+    color: white;
+    margin-bottom: 20px;
+}
+.yes{
+    background-color: darkgreen;
+}
+.no{
+    background-color: darkred;
+}
+.neutral{
+    background-color: gray;
+}
